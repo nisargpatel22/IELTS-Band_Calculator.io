@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="mainbox">
+        <form action="">
+            <div>
+                Listening<br>
+                (out of 40)<br><br>
+                <input type="number" id="i1" class="tbox1">
+            </div>
+            <br>
+            <div>
+                Academic Reading<br>
+                (out of 40)<br><br>
+                <input type="number" id="i2" class="tbox1">
+            </div>
+            <br>
+            <input type="button" value="Calculate Band Scores" class="calc-button" onclick="calcBand()">
+        </form>
+    </section>
+<br>
+    <section class="resultbox">
+        <label for="Listening">Listening: </label> <p id="p1" class="total"> </p>
+        <!-- <br><br> -->
+        <label for="Reading">Academic Reading: </label> <p id="p2" class="total"> </p>
+    </section>
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>

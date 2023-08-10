@@ -1,0 +1,41 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* button style */
+.calc-button {
+  margin-bottom: 5%;
+}
+.mainbox {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+}
+
+.tbox1 {
+  width: 50%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.resultbox {
+  background-color: coral;
+  display:flexbox;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.total {
+  padding: 5px;
+}
